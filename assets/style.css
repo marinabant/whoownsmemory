@@ -155,3 +155,11 @@ body.project-page .project-hero{background:linear-gradient(120deg,rgba(255,248,2
         grid-template-columns: 1fr;
     }
 }
+.workshop-grid .poster-card a img {
+    cursor: zoom-in;
+    transition: transform .2s ease;
+}
+
+.workshop-grid .poster-card a:hover img {
+    transform: scale(1.02);
+}
