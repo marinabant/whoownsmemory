@@ -163,3 +163,6 @@ body.project-page .project-hero{background:linear-gradient(120deg,rgba(255,248,2
 .workshop-grid .poster-card a:hover img {
     transform: scale(1.02);
 }
+.poster-card a img {
+    cursor: zoom-in;
+}
