@@ -1,0 +1,25 @@
+/* Digital Exhibition: archival + interactive project media */
+.exhibition-method-note{max-width:980px;margin:1rem 0 0;color:var(--muted);font-size:.96rem;line-height:1.65}
+.curated-material{margin-top:2.4rem}
+.media-panel{margin:1.4rem 0 2rem;padding:1.05rem;border:1px solid var(--line);border-radius:22px;background:#fff;box-shadow:0 14px 38px rgba(13,35,62,.06);overflow:hidden}
+.media-panel.local-archive{background:linear-gradient(180deg,#fff 0%,#fbfaf6 100%)}
+.media-panel.live-project{background:linear-gradient(180deg,#f9ffff 0%,#fff 100%)}
+.media-panel.record-only{background:#fbfaf6;padding:1.35rem 1.5rem}
+.media-panel-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:.85rem}
+.media-panel-head h3,.media-panel h3{margin:.35rem 0 .2rem;color:var(--navy)}
+.media-badge{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.08em;padding:.36rem .58rem;border-radius:999px;background:#f2e8bf;color:#6b5510}
+.media-badge.live{background:#dff5f5;color:#0b6870}
+.media-badge.record{background:#eef1f4;color:#536273}
+.platform-label{margin:.15rem 0 0;color:var(--muted);font-size:.88rem}
+.media-actions{display:flex;gap:.55rem;flex-wrap:wrap}
+.media-action{display:inline-block;padding:.62rem .88rem;border-radius:999px;background:var(--navy);color:#fff!important;text-decoration:none;font-size:.9rem;font-weight:700}
+.media-action:hover{transform:translateY(-1px);text-decoration:none}
+.media-action.secondary{background:#fff;color:var(--navy)!important;border:1px solid var(--line)}
+.project-media-frame{display:block;width:100%;height:min(78vh,900px);min-height:640px;border:1px solid var(--line);border-radius:15px;background:#fff}
+.project-media-frame.video-frame{height:auto;min-height:0;aspect-ratio:16/9}
+.project-media-frame.live-frame{min-height:720px}
+.media-note{font-size:.84rem;color:var(--muted);margin:.8rem .2rem .1rem;line-height:1.55}
+.submission-image-link{display:block;background:#f6f4ee;border:1px solid var(--line);border-radius:15px;padding:.6rem;cursor:zoom-in}
+.submission-image{display:block;width:100%;height:auto;max-height:none;object-fit:contain;border-radius:10px}
+.external-project{padding:1.25rem 1.4rem}
+@media (max-width:760px){.media-panel{padding:.75rem;border-radius:16px}.project-media-frame,.project-media-frame.live-frame{min-height:520px;height:70vh;border-radius:10px}.project-media-frame.video-frame{min-height:0;height:auto}.media-action{width:100%;text-align:center}}
