@@ -136,3 +136,22 @@ body.project-page .project-hero{background:linear-gradient(120deg,rgba(255,248,2
 .project-material{margin-top:2.4rem}.embed-intro,.embed-fallback{color:var(--muted)}.project-embed{width:100%;margin:1rem 0;border-radius:18px;overflow:hidden;border:1px solid rgba(11,45,91,.12);background:#f7f3ec;box-shadow:var(--shadow-soft)}.project-embed iframe{display:block;width:100%;height:760px;border:0;background:white}
 @media(max-width:980px){.news-long img{position:static}.event-gallery{grid-template-columns:1fr}.profile-card.advisor-card{grid-column:auto}.project-embed iframe{height:620px}}
 @media(max-width:620px){.project-embed iframe{height:520px}}
+/* Larger workshop posters */
+.workshop-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5rem;
+}
+
+.workshop-grid .poster-card img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+}
+
+@media (max-width: 800px) {
+    .workshop-grid {
+        grid-template-columns: 1fr;
+    }
+}
