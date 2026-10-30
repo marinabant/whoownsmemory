@@ -1,0 +1,10 @@
+WHO OWNS MEMORY — NEW REPOSITORY
+
+1. Create a NEW empty PUBLIC GitHub repository.
+2. Unzip this package.
+3. Upload EVERYTHING INSIDE the unzipped folder to the repository root.
+4. Confirm index.html, assets/ and projects/ are visible at root.
+5. Settings > Pages > Deploy from a branch > main > /(root).
+6. Save.
+
+Do not upload the outer folder as one folder. Upload its contents.

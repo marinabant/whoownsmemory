@@ -1,0 +1,8 @@
+BUILD VALIDATION
+================
+Root HTML pages: 10
+Project pages: 28
+Project pages with embedded Drive viewer: 28
+Missing local references: 0
+
+All local href/src references resolved successfully.

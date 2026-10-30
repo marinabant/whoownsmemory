@@ -1,0 +1,12 @@
+WHO OWNS MEMORY? — ULTRALIGHT GITHUB BUILD
+
+This is the complete website, optimized for GitHub browser upload.
+
+1. Create a NEW empty public GitHub repository.
+2. Extract the ZIP on your computer.
+3. Open the extracted folder and upload the CONTENTS (not the ZIP itself).
+4. index.html, assets/, projects/, etc. must be at repository root.
+5. Commit the files.
+6. Settings > Pages > Deploy from a branch > main > /(root).
+
+The images were compressed for web use. Site content and project pages are retained.
