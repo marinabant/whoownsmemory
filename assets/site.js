@@ -1,4 +1,3 @@
-
 const btn=document.querySelector('.menu-btn'), nav=document.querySelector('.navlinks');
 if(btn){btn.addEventListener('click',()=>{nav.classList.toggle('open');btn.setAttribute('aria-expanded',nav.classList.contains('open'))})}
 const filterButtons=[...document.querySelectorAll('[data-filter]')], cards=[...document.querySelectorAll('.project-card')];
